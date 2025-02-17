@@ -4,7 +4,7 @@ from turtle import *
 
 #step 1:  draw a square
 
-speed(30)
+speed(3)
 width(6)
 color("black")
 forward(200)
@@ -23,7 +23,7 @@ left(90)
 #drawing a door
 
 forward(70)
-color("brown")
+color("black")
 begin_fill()
 left(90)
 forward(120)   #heigt of the door
@@ -38,7 +38,7 @@ penup()
 goto(200, 200)
 pendown()
 
-color("grey")
+color("black")
 begin_fill()
 right(150)
 forward(200)
@@ -50,7 +50,7 @@ penup()
 goto(170, 170)
 pendown()
 
-color("lightblue")
+color("black")
 begin_fill()
 right(60)
 forward(35)
@@ -70,7 +70,7 @@ penup()
 goto(30, 170)
 pendown()
 
-color("lightblue")
+color("black")
 begin_fill()
 right(90)
 forward(35)
