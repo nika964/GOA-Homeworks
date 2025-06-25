@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+
+  <h1>📝 რეგისტრაციის ფორმა</h1>
+
+  <form action="#" method="post">
+    
+    <!-- სახელი -->
+    <label for="fname">სახელი:</label><br>
+    <input type="text" id="fname" name="fname" required><br><br>
+
+    <!-- გვარი -->
+    <label for="lname">გვარი:</label><br>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <!-- ელფოსტა -->
+    <label for="email">ელფოსტა:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- პაროლი -->
+    <label for="password">პაროლი:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- ქვეყნების ჩამოსაშლელი მენიუ -->
+    <label for="country">აირჩიე ქვეყანა:</label><br>
+    <select id="country" name="country" required>
+      <option value="">-- აირჩიე ქვეყანა --</option>
+      <option value="georgia">საქართველო</option>
+      <option value="france">საფრანგეთი</option>
+      <option value="spain">ესპანეთი</option>
+      <option value="germany">გერმანია</option>
+      <option value="italy">იტალია</option>
+    </select><br><br>
+
+    <!-- გაგზავნის ღილაკი -->
+    <input type="submit" value="რეგისტრაცია">
+
+  </form>
+
+</body>
+</html>
